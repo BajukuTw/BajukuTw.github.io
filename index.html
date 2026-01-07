@@ -2,91 +2,80 @@
 <html lang="zh-Hant">
 <head>
     <meta charset="UTF-8">
-    <title>BAJUKU.TW | Official Contact</title>
+    <title>官方聯絡方式</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         body {
-            margin: 0;
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial;
-            background: #0f0f0f;
+            background: linear-gradient(135deg, #f7f7f7, #eaeaea);
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            color: #fff;
+            margin: 0;
         }
-
-        .container {
-            width: 100%;
-            max-width: 420px;
+        .card {
+            background: #ffffff;
             padding: 32px 24px;
+            border-radius: 16px;
+            width: 90%;
+            max-width: 420px;
             text-align: center;
-            background: linear-gradient(
-                rgba(0,0,0,0.65),
-                rgba(0,0,0,0.65)
-            );
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
         }
-
-        .logo {
-            width: 200px;
-            max-width: 80%;
-            margin-bottom: 20px;
-        }
-
         h1 {
-            font-size: 18px;
-            font-weight: 500;
-            margin-bottom: 8px;
-            letter-spacing: 1px;
+            margin: 0 0 10px;
+            font-size: 22px;
         }
-
         p {
+            color: #666;
             font-size: 14px;
-            color: #ccc;
-            margin-bottom: 28px;
+            margin-bottom: 24px;
         }
-
-        .wa-btn {
+        a.button {
             display: block;
-            width: 100%;
             padding: 16px;
-            background: #25D366;
-            color: #fff;
-            text-decoration: none;
             border-radius: 12px;
+            text-decoration: none;
+            color: #fff;
             font-size: 17px;
             font-weight: 600;
+            margin-bottom: 16px;
         }
-
-        .wa-btn:hover {
-            opacity: 0.9;
+        .wa {
+            background: #25D366;
         }
-
+        .fb {
+            background: #1877F2;
+        }
         .note {
-            margin-top: 14px;
             font-size: 12px;
-            color: #aaa;
+            color: #999;
+            margin-top: 10px;
         }
     </style>
 </head>
 <body>
+    <div class="card">
+        <h1>BajukuTw official whatsapp</h1>
+        <p> Cantik Setiap Hari </p>
 
-    <div class="container">
-        <img src="logo.png" alt="BAJUKU.TW" class="logo">
-
-        <h1>Official WhatsApp</h1>
-        <p>Cantik Setiap Hari</p>
-
-        <a class="wa-btn"
+        <a class="button wa"
            href="https://wa.me/886938583698?text=Hai kak, aku dari live BAJUKU. Mau tanya produk ya 🤍"
            target="_blank">
             Chat via WhatsApp
         </a>
 
+        <!-- Facebook 連結之後可補 -->
+        <!--
+        <a class="button fb" href="https://www.facebook.com/你的粉專" target="_blank">
+            Facebook 粉專
+        </a>
+        -->
+
         <div class="note">
-            Fast response · Trusted store
+            請私訊，我們會盡快回覆
         </div>
     </div>
-
 </body>
 </html>
